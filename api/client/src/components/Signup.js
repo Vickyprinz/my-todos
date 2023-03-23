@@ -21,7 +21,6 @@ function Signup({ setIsLoggedIn }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    setIsLoggedIn(true);
     nav("/todo");
   }
 
