@@ -15,7 +15,7 @@ completed: false,
 setTodos([...todos, newTodo]);
 event.target.reset();
 };
-
+// added handle delete to be able to delete the todo
 const handleDelete = (id) => {
 const updatedTodos = todos.filter((todo) => todo.id !== id);
 setTodos(updatedTodos);
