@@ -23,13 +23,7 @@ function Login() {
         nav("/todo");
       
     }
-
-    // const backgroundStyle = {
-    //   backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZwg9ojutvztDmCfKCzcEi860Kf64SRPKlw&usqp=CAU",
-    //   backgroundSize: "cover",
-    //   backgroundPosition: "center",
-    //   height: "100vh"
-    // };
+// added form in the login
 
   return (
     <div className="container">
