@@ -14,13 +14,9 @@ export default function App() {
   return (
     <div className="App">
        <BrowserRouter>
-       {/* <Navbar/> */}
-       {/* <Login />
-       <Register />
-      <PetList />
-      <UserPetList /> */}
+  
 
-
+{/* added routes */}
       <Routes>
         <Route path="/" element={< Signup />} /> 
         <Route path="/todo" element={<Todo />}/>
