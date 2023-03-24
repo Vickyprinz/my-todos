@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+// added navbar with sign out link and register
 function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-secondary'>
