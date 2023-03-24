@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-
+// 
 function Signup({ setIsLoggedIn }) {
   const [formData, setFormData] = useState({
     username: "",
@@ -23,7 +23,7 @@ function Signup({ setIsLoggedIn }) {
     e.preventDefault();
     nav("/todo");
   }
-
+// added form to enable user to enter their credials and sign up
   return (
     <div className="container">
       <h1 className="text-center mb-4">Sign Up</h1>
