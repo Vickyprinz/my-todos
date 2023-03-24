@@ -20,7 +20,7 @@ const handleDelete = (id) => {
 const updatedTodos = todos.filter((todo) => todo.id !== id);
 setTodos(updatedTodos);
 };
-
+// added the handle edit for one to be able to edit the todo
 const handleEdit = (id) => {
 setEditingTodoId(id);
 };
